@@ -23,3 +23,5 @@ document.getElementById("newHeader").textContent= stringOfArray;
 
 
 document.getElementById("newHeaderSpot").textContent=stringOfArray;
+
+// You have to print the array BEFORE and AFTER splicing the array. From Kenn
