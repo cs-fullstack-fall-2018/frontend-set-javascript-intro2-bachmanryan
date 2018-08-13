@@ -1,9 +1,11 @@
-var arrayOfNubers = [30,37,38,45,47];
+var arrayOfNumbers = ["Bob", "Fred", "Josh", "Tosh", "Harry"];
 
 var stringOfArray = "";
-for(var i = 0; i < arrayOfNubers.length; i++)
+for(var x = 0; x < arrayOfNumbers.length; x++)
 {
-    stringOfArray += arrayOfNubers[i] + ", ";
+    stringOfArray += arrayOfNumbers[x] + ", ";
 }
 
-document.getElementById("something").textContent= stringOfArray;
+// document.getElementById("something").textContent= stringOfArray;
+//
+// var newArray = [1,2,3,4,5,6];
