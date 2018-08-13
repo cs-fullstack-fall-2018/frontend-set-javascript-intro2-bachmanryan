@@ -9,6 +9,8 @@
 // document.getElementById("something").textContent= stringOfArray;
 
 var newArray = [1,2,3,4,5,6];
+newArray.splice(4,1);
+newArray.splice(2,1);
 
 var stringOfArray = "";
 for(var x = 0; x < newArray.length; x++)
@@ -18,7 +20,6 @@ for(var x = 0; x < newArray.length; x++)
 
 document.getElementById("newHeader").textContent= stringOfArray;
 
-newArray.splice(2,1);
-newArray.splice(3,1);
+
 
 document.getElementById("newHeaderSpot").textContent=stringOfArray;
